@@ -1,0 +1,17 @@
+{ 
+  "init": {
+      "answers": [
+        {"content": "アプリ開発の過程を知りたい", "nextId": "study"},
+        {"content": "問い合わせをしたい", "nextId": "contact"}
+    ],
+    "question": "こんにちは！ご用件はなんでしょうか？"
+  },
+  "study": {
+    "answers": [
+        {"content": "YouTubeで動画を見る", "nextId": "https://www.youtube.com/channel/UC-bOAxx-YOsviSmqh8COR0w"},
+        {"content": "最初の質問に戻る", "nextId": "init"}
+    ],
+    "question": "このチャットボットアプリはYouTubeの動画を参考に作成しました。"
+  }
+}
+
