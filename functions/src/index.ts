@@ -10,7 +10,6 @@ const sendResponse = (response: functions.Response, statusCode: number, body: an
   })
 }
 
-
 export const addDataset = functions.https.onRequest(async (req: any, res: any) =>{
   if (req.method !== 'POST') {
     sendResponse(res, 405, {error: 'Invalid Request'})
@@ -23,5 +22,3 @@ export const addDataset = functions.https.onRequest(async (req: any, res: any) =
     sendResponse(res, 200, {message: 'Successfully added dataset'})
   }
 })
-
-
